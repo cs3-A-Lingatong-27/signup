@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Sign up</title>
+    <body>
+        <form>
+            <fieldset form="login">
+                <legend>Log in:</legend>
+                <label for="name">Name:</label>
+                <input placeholder="Enter your name" type="text" name="name"><br>
+                
+                <label for="username">Username:</label>
+                <input placeholder="Enter preferred username" type="text" name="username"><br>
+                
+                <label for="password">Password:</label>
+                <input placeholder="Enter password" type="password" name="password"><br>
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input placeholder="Confirm password" type="password" name="confirmPassword"><br>
+                
+                <label for="email">Email:</label>
+                <input placeholder="Enter your email" type="email" name="email"><br>
+                
+                <label for="address">Address:</label>
+                <input placeholder="Enter your address" type="text" name="address"><br>
+                
+                <label for="interests">Interests:</label>
+                <textarea placeholder="Write about your interests" name="interests" rows="4"></textarea><br>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+    
+            </fieldset>
+        </form>
+    </body>
+    </html>
+    <style>
+        body {
+            background-color: #e6e5e5; 
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        form {
+            background-color: rgb(255, 255, 255); 
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto; 
+            margin-top: 100px;
+        }
+        fieldset{
+            border-radius: 10px;
+            border: 2px solid;
+        }
+        legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input{
+            width: calc(100% - 12px);
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        input:hover{
+            transform: scale(105%);
+            transition: 0.4s;
+        }
+        
+        button{
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            width: calc(100% - 9px);
+            padding: 5px;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 5px;
+        }
+        button:hover{
+            background-color: rgb(180, 180, 180);
+            transform: scale(105%);
+            transition: 0.4s;
+        }
+        textarea {
+            width: calc(100% - 12px);
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
